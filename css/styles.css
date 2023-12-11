@@ -52,10 +52,9 @@ img {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
+    /* margin-right: 76px; */
 }
 
 .logo-part {
@@ -92,6 +91,53 @@ img {
     margin-right: auto;
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    display: none;
+}
+
+.contacts{
+    display: none;
+}
+
+.burger-menu{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    fill: #2F2F37;
+    line-height: 0;
+}
+
+.header-container{
+    display: flex;
+}
+
+
+/* ===== /header ===== */
+
 @media screen and (min-width: 768px) { /* tablet */
+    .container{
+        max-width: 766px;
+    }
+
+    /* ===== header ===== */
+
+    /* ===== /header ===== */
+}
+
+@media screen and (min-width: 1158px) {
+
+    /* tablet */
+    .container {
+        max-width: 1158px;
+    }
+
+    /* ===== header ===== */
     
+    /* ===== /header ===== */
 }
