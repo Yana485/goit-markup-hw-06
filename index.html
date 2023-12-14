@@ -159,6 +159,10 @@
             <li class="team-item">
               <img
                 class="team-pic"
+                srcset="
+                  ./images/our-team/mark.jpg,
+                  ./images/our-team/mark@2x.jpg
+                "
                 src="./images/our-team/mark.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -202,6 +206,7 @@
             <li class="team-item">
               <img
                 class="team-pic"
+                srcset="./images/our-team/tom.jpg, ./images/our-team/tom@2x.jpg"
                 src="./images/our-team/tom.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -245,6 +250,10 @@
             <li class="team-item">
               <img
                 class="team-pic"
+                srcset="
+                  ./images/our-team/camilla.jpg,
+                  ./images/our-team/camilla2x.jpg
+                "
                 src="./images/our-team/camilla.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -288,6 +297,10 @@
             <li class="team-item">
               <img
                 class="team-pic"
+                srcset="
+                  ./images/our-team/daniel.jpg,
+                  ./images/our-team/daniel@2x.jpg
+                "
                 src="./images/our-team/daniel.jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -341,6 +354,10 @@
               <div class="kartka">
                 <img
                   class="portfolio-pic"
+                  srcset="
+                    ./images/Portfolio/mobile/top-row-1.jpg,
+                    ./images/Portfolio/mobile/top-row-1@2x.jpg
+                  "
                   src="./images/Portfolio/mobile/top-row-1.jpg"
                   alt="Banking app screen"
                 />
@@ -359,6 +376,10 @@
               <div class="kartka">
                 <img
                   class="portfolio-pic"
+                  srcset="
+                    ./images/Portfolio/mobile/top-row-2.jpg,
+                    ./images/Portfolio/mobile/top-row-2@2x.jpg
+                  "
                   src="./images/Portfolio/mobile/top-row-2.jpg"
                   alt="Cashless Payment"
                 />
@@ -378,6 +399,10 @@
               <div class="kartka">
                 <img
                   class="portfolio-pic"
+                  srcset="
+                    ./images/Portfolio/mobile/top-row-3.jpg,
+                    ./images/Portfolio/mobile/top-row-3@2x.jpg
+                  "
                   src="./images/Portfolio/mobile/top-row-3.jpg"
                   alt="Meditation app screens"
                 />
@@ -397,6 +422,10 @@
               <div class="kartka">
                 <img
                   class="portfolio-pic"
+                  srcset="
+                    ./images/Portfolio/mobile/bottom-row-1.jpg,
+                    ./images/Portfolio/mobile/bottom-row-1@2x.jpg
+                  "
                   src="./images/Portfolio/mobile/bottom-row-1.jpg"
                   alt="Taxi Service"
                 />
@@ -415,6 +444,10 @@
               <div class="kartka">
                 <img
                   class="portfolio-pic"
+                  srcset="
+                    ./images/Portfolio/mobile/bottom-row-2.jpg,
+                    ./images/Portfolio/mobile/bottom-row-2@2x.jpg
+                  "
                   src="./images/Portfolio/mobile/bottom-row-2.jpg"
                   alt="Screen Illustrations"
                 />
@@ -433,6 +466,10 @@
               <div class="kartka">
                 <img
                   class="portfolio-pic"
+                  srcset="
+                    ./images/Portfolio/mobile/bottom-row-3.jpg,
+                    ./images/Portfolio/mobile/bottom-row-3@2x.jpg
+                  "
                   src="./images/Portfolio/mobile/bottom-row-3.jpg"
                   alt="Happy person"
                 />
@@ -524,9 +561,9 @@
     </footer>
 
     <!-- ========== CONTACT FORM BACKDROP========== -->
-    <!--<div class="backdrop is-open">-->
-    <!--is-open-->
-    <!--<div class="modal">
+    <div class="backdrop">
+      <!--is-open-->
+      <div class="modal">
         <button class="modal-close-button" type="button">
           <svg
             class="modal-close-button-icon"
@@ -644,7 +681,7 @@
           <button class="contact-form-btn" type="submit">Send</button>
         </form>
       </div>
-    </div>-->
+    </div>
 
     <!-- MOBILE MENU -->
     <div class="mobile-menu-wrapper">
@@ -662,15 +699,63 @@
         </button>
         <ul class="mobile-menu">
           <li class="mobile-menu-item">
-            <a class="mobile-menu-link" href="">Studio</a>
+            <a class="mobile-menu-link link current" href="">Studio</a>
           </li>
           <li class="mobile-menu-item">
-            <a class="mobile-menu-link" href="">Portfolio</a>
+            <a class="mobile-menu-link link" href="">Portfolio</a>
           </li>
           <li class="mobile-menu-item">
-            <a class="mobile-menu-link" href="">Contacts</a>
+            <a class="mobile-menu-link link" href="">Contacts</a>
           </li>
         </ul>
+
+        <address class="mobile-contacts">
+          <ul class="contact-list">
+            <li class="contact-list-item">
+              <a class="link contact-look current" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="contact-list-item">
+              <a class="link contact-look" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+
+        <div class="mobile-menu-media">
+          <ul class="mobile-media-list">
+            <li class="social-media-item">
+              <a href="#" class="footer-media-link link">
+                <svg class="social-media-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-item">
+              <a href="#" class="footer-media-link link">
+                <svg class="social-media-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-item">
+              <a href="#" class="footer-media-link link">
+                <svg class="social-media-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-item">
+              <a href="#" class="footer-media-link link">
+                <svg class="social-media-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
