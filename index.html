@@ -352,15 +352,25 @@
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="kartka">
-                <img
-                  class="portfolio-pic"
-                  srcset="
-                    ./images/Portfolio/mobile/top-row-1.jpg,
-                    ./images/Portfolio/mobile/top-row-1@2x.jpg
-                  "
-                  src="./images/Portfolio/mobile/top-row-1.jpg"
-                  alt="Banking app screen"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/Portfolio/tablet/banking.jpg,
+                      ./images/Portfolio/tablet/banking@2x.jpg
+                    "
+                    (min-width:768px) />
+                  <source
+                    srcset="
+                      ./images/Portfolio/mobile/top-row-1.jpg,
+                      ./images/Portfolio/mobile/top-row-1@2x.jpg
+                    "
+                    (max-width:767px) />
+                  <img
+                    class="portfolio-pic"
+                    src="./images/Portfolio/mobile/top-row-1.jpg"
+                    alt="Banking app screen"
+                /></picture>
+
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -397,15 +407,28 @@
             </li>
             <li class="portfolio-item">
               <div class="kartka">
-                <img
-                  class="portfolio-pic"
-                  srcset="
-                    ./images/Portfolio/mobile/top-row-3.jpg,
-                    ./images/Portfolio/mobile/top-row-3@2x.jpg
-                  "
-                  src="./images/Portfolio/mobile/top-row-3.jpg"
-                  alt="Meditation app screens"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/Portfolio/mobile/top-row-3.jpg,
+                      ./images/Portfolio/mobile/top-row-3@2x.jpg
+                    "
+                    (max-width:767px)
+                  />
+                  <source
+                    srcset="
+                      ./images/Portfolio/tablet/meditation.jpg,
+                      ./images/Portfolio/tablet/meditation@2x.jpg
+                    "
+                    (min-width:768px)
+                  />
+                  <img
+                    class="portfolio-pic"
+                    src="./images/Portfolio/mobile/top-row-3.jpg"
+                    alt="Meditation app screens"
+                  />
+                </picture>
+
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
