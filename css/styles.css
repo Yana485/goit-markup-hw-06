@@ -226,7 +226,7 @@ img {
     /* 111.111% */
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team{
@@ -942,20 +942,10 @@ img {
         }
     }
 
-    .down-part {
-        padding-top: 97px;
-        padding-left: 108px;
-    }
-
-    .down-part .container{
-        padding: 0;
-        margin: 0;
-    }
-
     .down-part-content{
         display: flex;
         flex-wrap: wrap;
-        gap: 72px 24px;
+        column-gap: 24px;
         width: 584px;
     }
 
@@ -1127,6 +1117,7 @@ img {
     .features-text{
         width: 264px;
         font-size: 16px;
+        font-weight: 400;
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.02em;
@@ -1197,6 +1188,10 @@ img {
         padding-left: 16px;
         padding-right: 16px;
     }
+        
+    .down-part .container {
+        margin: 0;
+    }
 
     .down-part-content{
         display: flex;
@@ -1212,10 +1207,12 @@ img {
 
     .footer-comment{
         margin-right: 120px;
+        margin-bottom: 0;
     }
 
     .footer-media{
         margin-right: 80px;
+        margin-bottom: 0;
     }
 
     .subscribe-form-btn{
