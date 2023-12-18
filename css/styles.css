@@ -229,6 +229,10 @@ img {
     padding-bottom: 72px;
 }
 
+.team{
+    background-color: #F4F4FD;
+}
+
 .team-list{
     display: flex;
     flex-direction: column;
@@ -355,7 +359,7 @@ img {
 }
 
 .footer-comment{
-    padding-bottom: 36px;
+    margin-bottom: 72px;
 }
 
 .down-logo {
@@ -381,7 +385,7 @@ img {
     align-items: center;
     flex-direction: column;
     gap: 16px;
-    padding: 36px 0;
+    margin-bottom: 72px;
 }
 
 .footer-media-text{
@@ -417,7 +421,6 @@ img {
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    padding-top: 36px;
 }
 
 .subscribe-description{
@@ -707,6 +710,12 @@ img {
     
     .mobile-menu-container {
         position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+        padding-top: 72px;
+        padding-bottom: 40px;
     }
     
     .mobile-menu-close-button {
@@ -731,8 +740,6 @@ img {
         display: flex;
         flex-direction: column;
         gap: 40px;
-        padding-top: 72px;
-        padding-bottom: 84px;
     }
 
     .mobile-menu-item{
@@ -753,8 +760,6 @@ img {
         display: flex;
         flex-direction: column;
         gap: 24px;
-        padding-top: 84px;
-        padding-bottom: 24px;
     }
 
     .contact-list-item{
@@ -767,10 +772,14 @@ img {
         font-style: normal;
     }
 
-    .mobile-menu-media{
+    .contact-list-item .current{
+        color: #404BBF;
+    }
+
+    /* .mobile-menu-media{
         padding-top: 24px;
         padding-bottom: 40px;
-    }
+    } */
 
     .mobile-media-list{
         display: flex;
@@ -892,7 +901,7 @@ img {
         .features-list {
             flex-direction: row;
             flex-wrap: wrap;
-            gap: 24px;
+            gap: 72px 24px;
         }
 
         .features-list-item {
@@ -925,7 +934,7 @@ img {
         .team-list {
             flex-direction: row;
             flex-wrap: wrap;
-            gap: 24px;
+            gap: 64px 24px;
         }
 
         .team-item {
